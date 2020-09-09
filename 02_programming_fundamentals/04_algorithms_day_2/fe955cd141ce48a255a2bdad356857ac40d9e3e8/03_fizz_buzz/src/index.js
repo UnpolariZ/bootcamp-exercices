@@ -5,7 +5,7 @@ function fizzBuzz(list) {
   arraylist.forEach(function fizz(list) {
     const valeuractuelle = arraylist[i];
     i++ ;
-    if (valeuractuelle % 3 === O ){
+    if (valeuractuelle % 3 === O){
       arraylist.push("fizz") ;
     
     }   
