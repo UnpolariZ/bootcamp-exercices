@@ -8,12 +8,10 @@ function range(chiffre1, chiffre2) {
   if (numeroUno < numeroDeux) {
     while (numeroUno < numeroDeux){
       array.push(numeroUno + 1);
-      console.log("plop");
       numeroUno = numeroUno +1 ;
     }
   } else if (numeroUno > numeroDeux) {
     while (numeroUno >  numeroDeux){ 
-      console.log("hola");
       array.push(numeroUno - 1);
       numeroUno = numeroUno -1;
     }
