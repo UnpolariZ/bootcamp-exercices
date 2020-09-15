@@ -1,5 +1,5 @@
 // code here
-const sayHello = player => console.log(`Hello, ${player.name}`) ;
+const sayHello = (player) => console.log(`Hello, ${player.name}`);
 //("Hello, Spartacus");
 // leave the code below for tests to work
 module.exports = sayHello;

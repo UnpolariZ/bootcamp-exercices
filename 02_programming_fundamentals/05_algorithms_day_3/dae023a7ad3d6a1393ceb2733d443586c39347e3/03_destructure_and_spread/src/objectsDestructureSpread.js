@@ -1,4 +1,4 @@
-function getConfig(config) {
+function getConfig(config = {}){
   const defaultConfig = {
     user: {
       name: "root",
@@ -8,9 +8,9 @@ function getConfig(config) {
       CPUThreads: 4,
       memory: 2,
       diskSpace: 20,
-    },
+    }
   };
-
+  
   return /** Complete here */;
 }
 
