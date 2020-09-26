@@ -1,18 +1,17 @@
 function fizzBuzz(list) {
-  const arraylist = [] ; 
-  let i = 0;
-  // Code the function here.
-  arraylist.forEach(function fizz(list) {
-    const valeuractuelle = arraylist[i];
-    i++ ;
-    if (valeuractuelle % 3 === O){
-      arraylist.push("fizz") ;
-    
-    }   
-  });console.log(arraylist);
-  return arraylist ;
-}
+  let newArray = [];
 
-fizzBuzz([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]) ;
-// Leave the line below untouched for tests to work properly.
+  for (let i = 0; i < list.length; i++) {
+    if (list[i] % 3 === 0 && list[i] % 5 === 0) {
+      newArray.push("FizzBuzz");
+    } else if (list[i] % 3 === 0) {
+      newArray.push("Fizz");
+    } else if (list[i] % 5 === 0) {
+      newArray.push("Buzz");
+    } else {
+      newArray.push(list[i]);
+    }
+  }
+  return newArray;
+}
 module.exports = fizzBuzz;
